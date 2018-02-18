@@ -35,23 +35,23 @@ button {
 }
 
 .cta-green {
-    background: #00FFAD;
-    color: #192440;
+    background: #008080;
+    color: #ffffff;
 }
 
 .cta-green:hover {
     color: #ffffff;
-    background: #00e69c;
+    background: #6AC7B6;
 }
 
 .cta-blue {
-    background: #192440;
+    background: #FF5C45;
     color: #ffffff;
 }
 
 .cta-blue:hover {
     color: #ffffff;
-    background: #121a2e;
+    background: #008080;
 }
 
 .cta-ghost {
@@ -73,8 +73,30 @@ button {
     overflow: hidden;
 }
 
+#banner #social-media a {
+    width: 40px;
+    height: 40px;
+    border-radius: 99%;
+    background: #008080;
+    transition: .4s ease;
+}
+
+#banner #social-media a i {
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 40px;
+}
+
+#banner #social-media a:hover {
+    background: #6AC7B6;
+}
+
+#banner #social-media a:hover i {
+    color: #ffffff;
+}
+
 #banner header img {
-    max-width: 80px;
+    max-width: 180px;
 }
 
 /********** feature (skew background) **********/
@@ -84,11 +106,11 @@ button {
 }
 
 #feature-first {
-    background: linear-gradient(168deg, #ffffff 55%, #00FFAD 0);
+    background: linear-gradient(168deg, #ffffff 55%, #FFFACD 0);
 }
 
 #feature-last {
-    background: #00FFAD;
+    background: #FFFACD;
 }
 
 /********** price table **********/
@@ -116,19 +138,19 @@ button {
 }
 
 #contact form {
-    color: #00FFAD;
+    color: #0B1819;
 }
 
 #contact form input,
 #contact form textarea {
     background: transparent;
-    border: 1px solid #00FFAD;
+    border: 1px solid #0B1819;
     color: #ffffff;
 }
 
 /********** copyright **********/
 #copyright {
-    background: #192440;
+    background: #fff;
     padding: 2rem 3rem;
 }
 
@@ -136,18 +158,18 @@ button {
     width: 40px;
     height: 40px;
     border-radius: 99%;
-    background: #ffffff;
+    background: #0B1819;
     transition: .4s ease;
 }
 
 #copyright #social-media a i {
-    color: #192440;
+    color: #fff;
     font-size: 1.2rem;
     line-height: 40px;
 }
 
 #copyright #social-media a:hover {
-    background: #00FFAD;
+    background: #6AC7B6;
 }
 
 #copyright #social-media a:hover i {
