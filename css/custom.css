@@ -95,6 +95,7 @@ a:hover, a:focus, a:active {
 #banner .logo {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #banner #social-media {
@@ -239,5 +240,9 @@ a:hover, a:focus, a:active {
 @media (max-width: 575px) {
     #banner h1 {
         font-size: 3.6rem;
+    }
+
+    #banner #social-media {
+        justify-content: flex-start;
     }
 }
