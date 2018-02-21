@@ -14,8 +14,17 @@ button {
     cursor: pointer;
 }
 
+a {
+    color: #008080;
+}
+
+a:hover, a:focus, a:active {
+    color: #6AC7B6;
+}
+
 .jumbotron {
     margin-bottom: 0 !important;
+    background-color: #fefacd;
 }
 
 .atlas-cta {
@@ -64,6 +73,12 @@ button {
     background: #121a2e;
 }
 
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #banner {
     background-size: cover;
 }
@@ -71,6 +86,21 @@ button {
 /********** banner **********/
 #banner header {
     overflow: hidden;
+}
+
+#banner.jumbotron {
+    padding-top: 2rem;
+}
+
+#banner .logo {
+    display: flex;
+    align-items: center;
+}
+
+#banner #social-media {
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 #banner #social-media a {
@@ -114,18 +144,41 @@ button {
 }
 
 /********** price table **********/
-#price-table {
+#team {
     padding-top: 3rem !important;
     padding-bottom: 4rem !important;
 }
 
-#price-table__premium {
+#team__premium {
     background: #192440;
     color: #ffffff;
 }
 
-#price-table ul li {
+#team .image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#team ul li {
     padding: 5px 0;
+}
+
+#team .social {
+    width: 40px;
+    height: 40px;
+    border-radius: 99%;
+    transition: .4s ease;
+}
+
+#team .social:hover {
+    transform: translateY(-5px);
+}
+
+#team .social i {
+    font-size: 1.2rem;
+    line-height: 40px;
 }
 
 /********** contact **********/
@@ -145,7 +198,7 @@ button {
 #contact form textarea {
     background: transparent;
     border: 1px solid #0B1819;
-    color: #ffffff;
+    color: #008080;
 }
 
 /********** copyright **********/
