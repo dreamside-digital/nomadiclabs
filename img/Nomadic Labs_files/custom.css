@@ -1,0 +1,248 @@
+/********** common setting **********/
+h2 {
+    font-size: 2.8rem !important;
+    font-weight: 700;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+a {
+    color: #008080;
+}
+
+a:hover, a:focus, a:active {
+    color: #6AC7B6;
+}
+
+.jumbotron {
+    margin-bottom: 0 !important;
+    background-color: #fefacd;
+}
+
+.atlas-cta {
+    border-radius: 22px !important;
+    padding: 12px 30px !important;
+    font-weight: 700;
+    transition: .3s ease-in-out !important;
+}
+
+.atlas-cta:hover {
+    text-decoration: none;
+    transform: translateY(-5px);
+}
+
+.atlas-cta-wide {
+    width: 100%;
+}
+
+.cta-green {
+    background: #008080;
+    color: #ffffff;
+}
+
+.cta-green:hover {
+    color: #ffffff;
+    background: #6AC7B6;
+}
+
+.cta-blue {
+    background: #FF5C45;
+    color: #ffffff;
+}
+
+.cta-blue:hover {
+    color: #ffffff;
+    background: #008080;
+}
+
+.cta-ghost {
+    border: 2px solid #192440 !important;
+    color: #192440;
+}
+
+.cta-ghost:hover {
+    color: #ffffff;
+    background: #121a2e;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#banner {
+    background-size: cover;
+}
+
+/********** banner **********/
+#banner header {
+    overflow: hidden;
+}
+
+#banner.jumbotron {
+    padding-top: 2rem;
+}
+
+#banner .logo {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#banner #social-media {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#banner #social-media a {
+    width: 40px;
+    height: 40px;
+    border-radius: 99%;
+    background: #008080;
+    transition: .4s ease;
+}
+
+#banner #social-media a i {
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 40px;
+}
+
+#banner #social-media a:hover {
+    background: #6AC7B6;
+}
+
+#banner #social-media a:hover i {
+    color: #ffffff;
+}
+
+#banner header img {
+    max-width: 180px;
+}
+
+/********** services **********/
+
+.services img {
+    height: 180px;
+}
+
+/********** feature (skew background) **********/
+.feature img {
+    width: 100%;
+    max-width: 480px;
+}
+
+#feature-first {
+    background: linear-gradient(168deg, #ffffff 55%, #FFFACD 0);
+}
+
+#feature-last {
+    background: #FFFACD;
+}
+
+/********** price table **********/
+#team {
+    padding-top: 3rem !important;
+    padding-bottom: 4rem !important;
+}
+
+#team__premium {
+    background: #192440;
+    color: #ffffff;
+}
+
+#team .image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#team ul li {
+    padding: 5px 0;
+}
+
+#team .social {
+    width: 40px;
+    height: 40px;
+    border-radius: 99%;
+    transition: .4s ease;
+}
+
+#team .social:hover {
+    transform: translateY(-5px);
+}
+
+#team .social i {
+    font-size: 1.2rem;
+    line-height: 40px;
+}
+
+/********** contact **********/
+#contact {
+    background-size: cover;
+}
+
+#contact ul li {
+    padding: 3px 0;
+}
+
+#contact form {
+    color: #0B1819;
+}
+
+#contact form input,
+#contact form textarea {
+    background: transparent;
+    border: 1px solid #0B1819;
+    color: #008080;
+}
+
+/********** copyright **********/
+#copyright {
+    background: #fff;
+    padding: 2rem 3rem;
+}
+
+#copyright #social-media a {
+    width: 40px;
+    height: 40px;
+    border-radius: 99%;
+    background: #0B1819;
+    transition: .4s ease;
+}
+
+#copyright #social-media a i {
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 40px;
+}
+
+#copyright #social-media a:hover {
+    background: #6AC7B6;
+}
+
+#copyright #social-media a:hover i {
+    color: #ffffff;
+}
+
+/********** RWD **********/
+@media (max-width: 575px) {
+    #banner h1 {
+        font-size: 3.6rem;
+    }
+
+    #banner #social-media {
+        justify-content: flex-start;
+    }
+}
