@@ -79,6 +79,10 @@ a:hover, a:focus, a:active {
     align-items: center;
 }
 
+.line-height-large {
+    line-height: 1.5;
+}
+
 #banner {
     background-size: cover;
 }
