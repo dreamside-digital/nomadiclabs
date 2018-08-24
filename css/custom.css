@@ -29,9 +29,10 @@ a:hover, a:focus, a:active {
 
 .atlas-cta {
     border-radius: 22px !important;
-    padding: 12px 30px !important;
+    padding: 10px 20px !important;
     font-weight: 700;
     transition: .3s ease-in-out !important;
+    display: inline-block;
 }
 
 .atlas-cta:hover {
@@ -79,8 +80,29 @@ a:hover, a:focus, a:active {
     align-items: center;
 }
 
+.flex-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .line-height-large {
     line-height: 1.5;
+}
+
+.background-yellow {
+    background: #FFFACD;
+}
+
+.background-white {
+    background: #FFF;
+}
+
+.background-light-green {
+    background: #6AC7B6;
+}
+
+.background-dark-green {
+    background: #008080;
 }
 
 #banner {
@@ -212,6 +234,38 @@ a:hover, a:focus, a:active {
     color: #008080;
 }
 
+/********** portfolio **********/
+
+.portfolio-item {
+    position: relative;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background: linear-gradient(194deg, #ffffff 55%, #FFFACD 0);
+}
+
+.portfolio-item .image {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    flex-grow: 1;
+}
+
+.portfolio-item .image img {
+    object-fit: cover;
+    border: 1px solid #008080;
+}
+
+.portfolio-item .info {
+    padding: 2em;
+    flex-grow: 1;
+}
+
+.portfolio-item .info a {
+    margin-top: 1em;
+}
+
 /********** copyright **********/
 #copyright {
     background: #fff;
@@ -250,3 +304,4 @@ a:hover, a:focus, a:active {
         justify-content: flex-start;
     }
 }
+
