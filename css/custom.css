@@ -277,10 +277,12 @@ a:hover, a:focus, a:active {
 
 .portfolio-item .image img {
     object-fit: cover;
-    margin-top: 1em;
-    height: 320px;
-    width: 320px;
     border: 1px solid #FF6C45;
+    margin-top: 1em;
+    height: auto;
+    width: auto;
+    max-width: 320px;
+    max-height: 320px;
     transform: translate(-2em,-2em);
 }
 
