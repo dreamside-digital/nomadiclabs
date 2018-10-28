@@ -249,52 +249,47 @@ a:hover, a:focus, a:active {
 
 /********** portfolio **********/
 
+
 .portfolio-item {
-  position: relative;
-  margin-top: 3em;
-  margin-bottom: 3em;
-  }
-
-.portfolio-item .redbox {
-  background: linear-gradient(23deg, #ffffff 55%, #FFFACD 0);
-  border: 1px solid #FF6C45;
-  border-radius: 0 0 0 20px;
-}
-
-.portfolio-item .yellowbox {
-  background: linear-gradient(40deg, #ffffff 50%, #FFFACD 0);
-  border: 1px solid #FF6C45;
-  border-radius: 0 0 20px 0;
+    position: relative;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .portfolio-item .image {
     z-index: 1;
     display: flex;
-    align-items: left;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
     flex-grow: 1;
 }
 
 .portfolio-item .image img {
     object-fit: cover;
-    border: 1px solid #FF6C45;
-    margin-top: 1em;
-    height: auto;
-    width: auto;
-    max-width: 320px;
-    max-height: 320px;
-    transform: translate(-2em,-2em);
+    border: 1px solid #008080;
+    max-width: 250px;
+    max-height: 250px;
 }
 
 .portfolio-item .info {
-    padding: 1em;
+    padding: 2em;
     flex-grow: 1;
-    height: 300px;
 }
 
 .portfolio-item .info a {
     margin-top: 1em;
-    color: #FF6C45;
+}
+
+.tags .tag {
+    background: #ff4f34;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 5px;
 }
 
 /********** copyright **********/
