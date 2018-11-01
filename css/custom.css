@@ -1,8 +1,21 @@
 /********** common setting **********/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,700,700i,800,800i,900');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-weight: 900;
+  }
+
 h2 {
     font-size: 2.8rem !important;
-    font-weight: 700;
-}
+    font-weight: 800;
+  }
+
+  h3 {
+      font-weight: 700;
+    }
 
 img {
     display: block;
@@ -29,9 +42,10 @@ a:hover, a:focus, a:active {
 
 .atlas-cta {
     border-radius: 22px !important;
-    padding: 12px 30px !important;
+    padding: 10px 20px !important;
     font-weight: 700;
     transition: .3s ease-in-out !important;
+    display: inline-block;
 }
 
 .atlas-cta:hover {
@@ -79,8 +93,29 @@ a:hover, a:focus, a:active {
     align-items: center;
 }
 
+.flex-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .line-height-large {
     line-height: 1.5;
+}
+
+.background-yellow {
+    background: #FFFACD;
+}
+
+.background-white {
+    background: #FFF;
+}
+
+.background-light-green {
+    background: #6AC7B6;
+}
+
+.background-dark-green {
+    background: #008080;
 }
 
 #banner {
@@ -210,6 +245,49 @@ a:hover, a:focus, a:active {
     background: transparent;
     border: 1px solid #0B1819;
     color: #008080;
+}
+
+/********** portfolio **********/
+
+
+.portfolio-item {
+    position: relative;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.portfolio-item .image {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    flex-grow: 1;
+}
+
+.portfolio-item .image img {
+    object-fit: cover;
+    border: 1px solid #008080;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.portfolio-item .info {
+    padding: 2em;
+    flex-grow: 1;
+}
+
+.portfolio-item .info a {
+    color: #FF6C45;
+}
+
+.tags .tag {
+    background: #FF6C45;
+    color: #fff;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 5px;
 }
 
 /********** copyright **********/
