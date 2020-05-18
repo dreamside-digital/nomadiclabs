@@ -256,19 +256,10 @@ a:hover, a:focus, a:active {
     margin-bottom: 2em;
 }
 
-.portfolio-item .image {
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    padding: 2em;
-    flex-grow: 1;
-}
-
 .portfolio-item .image img {
-    object-fit: cover;
     border: 1px solid #008080;
-    max-width: 250px;
-    max-height: 250px;
+    width: 100%;
+    height: auto;
 }
 
 .portfolio-item .image video {
