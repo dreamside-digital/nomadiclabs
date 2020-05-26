@@ -40,6 +40,12 @@ a:hover, a:focus, a:active {
     background-color: #fefacd;
 }
 
+.open-office {
+    margin-top: 2em;
+    background-color: #121a2e;
+    color: #fefacd;
+    padding: 1em 0;
+}
 .atlas-cta {
     border-radius: 22px !important;
     padding: 10px 20px !important;
